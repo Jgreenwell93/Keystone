@@ -1,8 +1,29 @@
 /* landing page styling */
-.carousel{
-    width: 65%;
+header{
+    display: flex;
+}
+.header-image{
+    max-width: 20vw;
+    height: auto;
+    float: left;
+}
+.nav{
+    display: flex;
+    width: 150vw;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding-bottom: 2vh;
 }
 
+.nav-link{
+    text-decoration: none;
+    color: #2e3190;
+    font-size: 1.75rem;
+}
+
+.active{
+    color: #960129;
+}
 /* services page stylings */
 
 
