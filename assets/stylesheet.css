@@ -1,6 +1,19 @@
 /* landing page styling */
-
-
+header{
+    display: flex;
+}
+.header-image{
+    max-width: 20vw;
+    height: auto;
+    float: left;
+}
+.nav{
+    display: flex;
+    width: 75vw;
+    align-items: flex-end;
+    justify-self: flex-end;
+    padding-bottom: 2vh;
+}
 /* services page stylings */
 
 
