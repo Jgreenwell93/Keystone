@@ -20,6 +20,17 @@ header{
     height: auto;
     float: left;
 }
+
+.up-arrow{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.arrow{
+    width:8vw;
+    height: auto;
+}
 .nav{
     display: flex;
     width: 150vw;
