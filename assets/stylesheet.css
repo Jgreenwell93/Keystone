@@ -1,3 +1,10 @@
+:root{
+    --darkblue:#2e3190;
+    --accentred:#960129;
+}
+
+
+
 /* landing page styling */
 header{
     display: flex;
@@ -10,19 +17,24 @@ header{
 .nav{
     display: flex;
     width: 150vw;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-evenly;
-    padding-bottom: 2vh;
 }
 
 .nav-link{
     text-decoration: none;
-    color: #2e3190;
+    color: var(--darkblue);
     font-size: 1.75rem;
 }
 
 .active{
-    color: #960129;
+    color: var(--accentred);
+}
+
+.skyline{
+    border-bottom-style: solid;
+    border-width: 1.5vh;
+    border-color: var(--darkblue);
 }
 /* services page stylings */
 
