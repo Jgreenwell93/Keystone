@@ -4,7 +4,7 @@
     --whitetext:whitesmoke;
 }
 
-
+/* makes the scroll behavior smooth */
 html {
     scroll-behavior: smooth;
   }
@@ -15,17 +15,19 @@ html {
 header{
     display: flex;
 }
+/* logo image style and positiong */
 .header-image{
     max-width: 20vw;
     height: auto;
     float: left;
 }
 
-
+/* makes the cusor on the up arrow to indicate clickable */
 .up-arrow:hover {
     cursor: pointer;
 }
 
+/* up arrow image stylings and positing on page */
 .up-arrow{
     width:3vw;
     height: auto;
@@ -35,6 +37,7 @@ header{
     padding-bottom: 2vh;
     padding-right: 1vw;
 }
+/* stylings and positioning of nav bar */
 .nav{
     display: flex;
     width: 150vw;
@@ -42,26 +45,33 @@ header{
     justify-content: space-evenly;
 }
 
+/* nav bar item styling */
 .nav-link{
     text-decoration: none;
     color: var(--darkblue);
     font-size: 1.75rem;
 }
 
+/* makes active nav item diferent color for page indication */
 .active{
     color: var(--accentred);
 }
 
+/* stylings of hero image */
 .skyline{
     border-bottom-style: solid;
     border-width: 1.5vh;
     border-color: var(--darkblue);
 }
+
+
+
 /* services page stylings */
 
 
 
 /* contact form stylings */
+
 .contact-area{
     background-color: var(--darkblue);
 }
