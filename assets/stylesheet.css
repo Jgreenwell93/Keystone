@@ -2,6 +2,8 @@
     --darkblue:#2e3190;
     --accentred:#960129;
     --whitetext:whitesmoke;
+    --textgray:rgb(54, 53, 53);
+    --softblue:aliceblue;
 }
 
 /* makes the scroll behavior smooth */
@@ -64,15 +66,84 @@ header{
     border-color: var(--darkblue);
 }
 
+/* hero article positing and stylings */
 .hero-article{
-    background-color: aquamarine;
-    width: 25vw;
+    background-color:var(--softblue);
+    width: 27vw;
     height: 40vh;
     position: relative;
     bottom: 20vh;
     left: 45vw;
-
+    opacity: .9;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+#hero-article-title{
+    color: var(--darkblue);
+    font-size: 3em;
+    font-weight: 100;
+    padding-left: 2vw;
+    padding-top: 4vh;
+}
+
+#hero-article-content{
+    font-weight: 100;
+    font-size: .8em;
+    color: var(--textgray);
+    line-height: 1.5;
+    letter-spacing: 1px;
+    position: relative;
+    padding-left: 7.5vw;
+    margin-right: 4vw;
+}
+
+/* creating a pseudo elemnt to display a line for aesthetics */
+#hero-article-content:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    top: 1vh;
+    right: 17vw;
+    background: var(--darkblue);
+  }
+
+  /* hero article button positiong */
+  #hero-article-btn{
+    position: absolute;
+    top: 95%;
+    left: 70.5%;
+
+  }
+ 
+  /* general link button stylings */
+  .link-btn{
+    background-color: var(--accentred);
+    color: var(--whitetext);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8vw;
+    height: 4vh;font-weight: 200;
+    font-size: smaller;
+  }
+
+  /* pseudo block + element before button for visuals */
+  .link-btn:before{
+    content:"+";
+    display: block;
+    background: var(--darkblue);
+    position: absolute;
+    right:100%;
+    height: 4vh;
+    width: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+  }
 
 
 /* services page stylings */
