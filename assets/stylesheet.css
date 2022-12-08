@@ -72,6 +72,7 @@ header{
     right: 0;
     padding-bottom: 2vh;
     padding-right: 1vw;
+    z-index: 11;
 }
 /* stylings and positioning of nav bar */
 .nav{
