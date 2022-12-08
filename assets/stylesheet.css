@@ -21,15 +21,19 @@ header{
     float: left;
 }
 
+
+.up-arrow:hover {
+    cursor: pointer;
+}
+
 .up-arrow{
+    width:3vw;
+    height: auto;
     position: fixed;
     bottom: 0;
     right: 0;
-}
-
-.arrow{
-    width:8vw;
-    height: auto;
+    padding-bottom: 2vh;
+    padding-right: 1vw;
 }
 .nav{
     display: flex;
