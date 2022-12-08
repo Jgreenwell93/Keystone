@@ -64,6 +64,15 @@ header{
     border-color: var(--darkblue);
 }
 
+.hero-article{
+    background-color: aquamarine;
+    width: 25vw;
+    height: 40vh;
+    position: relative;
+    bottom: 20vh;
+    left: 45vw;
+
+}
 
 
 /* services page stylings */
