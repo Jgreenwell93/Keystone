@@ -12,6 +12,8 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.5;
+    letter-spacing: 1px;
   }
 
   /* Scrollbar stylings */
@@ -29,7 +31,7 @@ html, body {
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: var(--darkblue); 
+    background: #007bff; 
     border-radius: 10px;
   }
   
@@ -91,6 +93,11 @@ header{
     color: var(--accentred);
 }
 
+/* adjusting hero1 height for page flow spacing */
+.hero1{
+    height: 100vh;
+}
+
 /* stylings of hero image */
 .skyline{
     border-bottom-style: solid;
@@ -121,8 +128,6 @@ header{
     font-weight: 100;
     font-size: .8em;
     color: var(--textgray);
-    line-height: 1.5;
-    letter-spacing: 1px;
     position: relative;
     padding-left: 7.5vw;
     margin-right: 4vw;
@@ -175,6 +180,26 @@ header{
     align-items: center;
     justify-content: center;
     font-size: larger;
+  }
+
+  #services-top-block{
+    background-color: var(--darkblue);
+    color: var(--whitetext);
+    height: 55vh;
+  }
+
+  #services-head-top{
+    font-size: 4em;
+    font-weight: 200;
+    margin-left: 25vw;
+    padding-top: 5vh;
+    margin-bottom: 0;
+  }
+
+  #services-head-bottom{
+    font-size: 1em;
+    margin-left: 25vw;
+    width:30%;
   }
 
 
