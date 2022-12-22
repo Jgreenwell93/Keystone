@@ -276,6 +276,22 @@ header{
 
 /* services page stylings */
 
+/* fade in effect for service page items */
+.fade2{
+  animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
 .service-page-stage{
   margin-top: 4vh;
 }
@@ -307,10 +323,14 @@ justify-content: space-evenly;
 
 .service-page-item{
   background-color: var(--mediumblue);
-  width: 15vw;
-  height: 40vh;
+  width: 18vw;
+  height: 42vh;
   position: relative;
   margin-bottom: 7vh;
+  border-radius: 1.5%;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
 }
 
 
@@ -330,11 +350,11 @@ justify-content: space-evenly;
   font-size: .9em;
 }
 
-.service-page-item-button{
+/* .service-page-item-button{
   text-decoration: none;
   color: var(--accentred);
   margin-left: 1vw;
-}
+} */
 
 
 /* contact form stylings */
