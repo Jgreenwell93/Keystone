@@ -4,6 +4,7 @@
     --whitetext:whitesmoke;
     --textgray:rgb(54, 53, 53);
     --softblue:aliceblue;
+    --mediumblue: rgb(184, 210, 233);
 }
 
 /* makes the scroll behavior smooth, globally adjusts font family, removes weird padding and border */
@@ -275,6 +276,26 @@ header{
 
 /* services page stylings */
 
+/* fade in effect for service page items */
+.fade2{
+  animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.service-page-stage{
+  margin-top: 4vh;
+}
+
 .services-page-top-block{
   background-color: var(--darkblue);
   color: var(--whitetext);
@@ -294,6 +315,46 @@ header{
   margin-left: 33vw;
   width:30%;
 }
+
+/* adding overwrite flex properties to service page rows */
+.service-page-row{
+justify-content: space-evenly;
+}
+
+.service-page-item{
+  background-color: var(--mediumblue);
+  width: 18vw;
+  height: 42vh;
+  position: relative;
+  margin-bottom: 7vh;
+  border-radius: 1.5%;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+
+.service-page-item-top{
+  color: var(--darkblue);
+  font-size: 2em;
+  font-weight: 200;
+  margin-left: 1vw;
+  padding-top: 2vh;
+  margin-bottom: 0;
+}
+
+.service-page-item-bottom{
+  margin-left: 1vw;
+  padding-right: 1vw;
+  font-weight: 200;
+  font-size: .9em;
+}
+
+/* .service-page-item-button{
+  text-decoration: none;
+  color: var(--accentred);
+  margin-left: 1vw;
+} */
 
 
 /* contact form stylings */
