@@ -283,6 +283,12 @@ header{
     animation-fill-mode: forwards
 }
 
+.fade3{
+  animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
 @keyframes fadeInAnimation {
   0% {
       opacity: 0;
