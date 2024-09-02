@@ -32,3 +32,15 @@ $(document).ready(function(){
     }
   })
 })
+
+// When the user scrolls down 20px from the top of the document, give the nav bar a background
+$(document).ready(function(){
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 10){
+      $(".page-header").css({"background-color": "rgb(0, 0, 0, 0.5)"})
+    }
+    else{
+      $(".page-header").css({"background-color": "rgb(0, 0, 0, 0)"})
+    }
+  })
+})
