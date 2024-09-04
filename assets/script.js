@@ -37,7 +37,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $(window).scroll(function(){
     if($(this).scrollTop() > 10){
-      $(".page-header").css({"background-color": "rgb(0, 0, 0, 0.5)"})
+      $(".page-header").css({"background-color": "rgb(0, 0, 0, 0.6)"})
     }
     else{
       $(".page-header").css({"background-color": "rgb(0, 0, 0, 0)"})
